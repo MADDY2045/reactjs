@@ -5,7 +5,7 @@ import Hooks from '../src/components/Hooks';
 function App() {
   return (
     <div className="App">
-      Hooks Tutorial!!!
+      <Hooks/>
     </div>
   );
 }
