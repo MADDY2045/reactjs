@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom'
 
 const useEffectSample = () => {
 
@@ -37,6 +38,8 @@ const useEffectSample = () => {
             <div>
                 <h1>{windowWidth}</h1>
             </div>
+            <Link to={'/'}>UseState</Link>
+            <Link to={'/useref'}>UseRef</Link>
         </div>
     );
 }

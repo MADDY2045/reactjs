@@ -1,11 +1,16 @@
 import React from 'react';
 import UseStateSample from '../components/useStateSample';
 import UseEffectSample from '../components/useEffectSample';
+import UseRef from '../components/useRefSample';
+import { Route,Switch } from 'react-router-dom'
 const Hooks = () => {
     return (
         <div>
-           <UseStateSample/>
-           <UseEffectSample/>
+            <Switch>
+                <Route exact path="/" component={UseStateSample}/>
+                <Route exact path="/useeffect" component={UseEffectSample}/>
+                <Route exact path='/useref' component={UseRef}/>
+            </Switch>
         </div>
     );
 }

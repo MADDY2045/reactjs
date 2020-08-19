@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-
+import { Link } from 'react-router-dom'
 // const getInitialdata=()=>{
 //     console.log('entered');
 //     return 12;
@@ -36,6 +36,8 @@ const useStateSample = () => {
            <span>{count}</span>
            <span>{theme}</span>
            <button onClick={ incrementCount }>+</button>
+           <Link to={'/useeffect'}>UseEffect</Link>
+           <Link to={'/useref'}>UseRef</Link>
         </div>
     );
 }
