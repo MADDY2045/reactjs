@@ -40,6 +40,7 @@ const useEffectSample = () => {
             </div>
             <Link to={'/'}>UseState</Link>
             <Link to={'/useref'}>UseRef</Link>
+            <Link to={"/usememo"}>USE MEMO</Link>
         </div>
     );
 }

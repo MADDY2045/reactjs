@@ -27,6 +27,7 @@ const useRefSample = () => {
             <button onClick={autofocus}>FOCUS</button>
             <Link to={"/useeffect"}>UseEffect</Link>
             <Link to={"/"}>UseState</Link>
+            <Link to={"/usememo"}>USE MEMO</Link>
         </div>
     );
 }

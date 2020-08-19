@@ -38,6 +38,7 @@ const useStateSample = () => {
            <button onClick={ incrementCount }>+</button>
            <Link to={'/useeffect'}>UseEffect</Link>
            <Link to={'/useref'}>UseRef</Link>
+           <Link to={"/usememo"}>USE MEMO</Link>
         </div>
     );
 }
